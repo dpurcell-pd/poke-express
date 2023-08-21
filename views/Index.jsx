@@ -1,13 +1,12 @@
 import React from "react";
 
 function Index({ pokemon }) {
-    const capitalize = (name) => {
-        const firstLetter = name.charAt(0).toUpperCase();
-        const wordRemainder = name.slice(1);
-        const wordCapitalized = firstLetter + wordRemainder;
-        return wordCapitalized;
-    }
-
+  const capitalize = (name) => {
+    const firstLetter = name.charAt(0).toUpperCase();
+    const wordRemainder = name.slice(1);
+    const wordCapitalized = firstLetter + wordRemainder;
+    return wordCapitalized;
+  };
 
   return (
     <div>
